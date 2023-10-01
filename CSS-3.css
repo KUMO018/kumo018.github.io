@@ -1,0 +1,55 @@
+body{
+   text-align:center;
+   background: #FFFFA7;
+
+    
+}
+header{
+   text-align:center;
+   color:pink;
+   background:black;
+   padding:40px 0;
+}
+.afloat{
+    z-index:1;
+    height:50px;
+    width:20%;
+    background: silver;
+    position:fixed;
+    top:0px;
+    left:72%;
+    right:5%;
+    padding:0 100px 0 0;
+    align-self: center;
+}
+.afloat ul{
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    padding-right: 15px;
+    gap:20px;
+}
+.clients{
+    text-align:left;
+    background:white
+}
+.client img{
+   float:left;
+   height:100px;
+   width:100px;
+   -webkit-animation: img 6s easein 1s infinite alternate;
+   
+}
+@keyframes img{
+   from{img:lady1.jpg;}
+   to{img:loveb1.png;}
+}
+.client{
+   color:orange;
+   justify-content:flex-start;
+   
+}
+footer{
+   color:blue;
+   background:#353535;
+}

@@ -1,0 +1,48 @@
+body{
+    color:black;
+    background:#FFCCCB;
+    border:5px dashed blue;
+    padding:30px;
+    margin:5px;
+    text-align: center;
+}
+.float{
+    z-index:2;
+    height:50px;
+    width:15%;
+    background: silver;
+    position:fixed;
+    top:0px;
+    left:75%;
+    right:5%;
+    padding:0 100px 0 0;
+}
+.float ul{
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    padding-right: 15px;
+    gap:20px;
+}
+header{
+    color:red;
+    background: grey;
+    heigt:100px;
+    text-align: center;
+    padding:60px 0;
+}
+.disclaimer{
+    color:red;
+    text-align:center;
+    background: #00FF00;
+    padding:40px 0;
+}
+footer{
+    background:grey;
+    padding:10px 0;
+    border:5px solid #FFCCCB;
+}
+.about{
+    color:inherit;
+    font-size: 20px;
+}
