@@ -11,11 +11,34 @@ body{
 }
 header{
     color: red;
-    background: grey;
+    background:#98FB98;
     padding:80px 0;
     text-align: center;
     position:relative;
+    top:auto;
     border:5px solid #FFFFA7;
+}
+.float{
+    z-index:2;
+    height:50px;
+    width:15%;
+    background: silver;
+    position:fixed;
+    top:0px;
+    left:75%;
+    right:5%;
+    padding:0 100px 0 0;
+}
+.container img{
+    height:150px;
+    width:150px;
+}
+.float ul{
+    list-style: none;
+    display:flex;
+    justify-content:center;
+    padding-right: 15px;
+    gap:20px;
 }
 .container{
     margin:0 auto;
@@ -41,14 +64,14 @@ section{
     font-size:1rem; 
 }
 .features{
-    background: #FFFFFF;
+    background: #FFFDD0;
     color:orange;
-    padding;px;
+
     border:5px solid #FFFFA7;
 }
 .feature img{
     width:70%;
-    transition: 
+     
 }
 .quote{
     background:#98FB98;
@@ -64,10 +87,10 @@ footer{
     background:#353535;
     padding:32px 0;
     text-align: center;
-    color:#868686;
+    color:blue;
     border:5px solid #FFFFA7;
 }
-footer ul{
+.feature ul{
     list-style: none;
     display:inline-block;
 }
