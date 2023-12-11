@@ -16,6 +16,34 @@ header{
     top:auto;
     border:5px solid #FFFFA7;
 }
+.menucont{
+    display:none;
+    background-color: blue;
+    list-style-type: none;
+    z-index: 2;
+    
+}
+.menu{
+    display:block;
+    position:fixed;
+    z-index: 2;
+    list-style-type: none;
+    left:5%;
+    right:75%;
+}
+.menu:hover .menubt{
+    background-color: green;
+    color:red;
+}
+.menucont a{
+    display:block;
+    color:red;
+    text-decoration: none;
+}
+.menu:hover .menucont{
+    display:block;
+    list-style-type:none;
+}
 .float{
     z-index:2;
     height:50px;
@@ -88,6 +116,13 @@ footer{
     text-align: center;
     color:blue;
     border:5px solid #FFFFA7;
+}
+.menu:hover .menucontent{
+display:block;
+}
+.menucontent{
+diplay:none;
+
 }
 .feature ul{
     list-style: none;
