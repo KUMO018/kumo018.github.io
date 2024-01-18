@@ -121,8 +121,11 @@ footer{
 display:block;
 }
 .menucontent{
-diplay:none;
+display:none;
 
+}
+a:hover{
+    background-color: green;
 }
 .feature ul{
     list-style: none;
